@@ -1,0 +1,301 @@
+html{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/*Runko*/
+body{
+    padding: 0;
+    margin: 0;
+    background-image:url("http://www.projektiuutiset.fi/wp-content/uploads/photo-gallery/puijon5.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+/**/
+.lisayshead{
+	height: auto;
+	width: 30%;
+	border: 4px solid black;
+	border-radius: 10px;
+	background-color: pink;
+	text-align: center;
+    box-sizing: border-box;
+}
+
+/*Linkin div*/
+.link{
+	position: absolute;
+    box-sizing: border-box;
+}
+
+/*Peruutus button*/
+.peru{
+    padding: 16px 40px;
+	border: 4px solid black;
+	background-color: lightgrey;
+	border-radius: 10px;
+	text-decoration: none;
+	font-size: 20;
+	font-weight: bold;
+	text-align: center;
+	display: block;
+	position: fixed;
+	right: 5%;
+	top: 5%;
+    box-sizing: border-box;
+}
+
+/*Lisäys lomakkeiden div*/
+.lisaysdiv{
+	height: auto;
+    width: 60%;
+    position: absolute;
+    top: 0;
+    display: inline;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+/*Lisäys lomakkeet*/
+.lisaysf{
+	position: relative;
+    box-sizing: border-box;
+}
+
+/**/
+/*Login-formin otsikko*/
+.lisaysf legend{
+    width: auto;
+    border: 4px solid black;
+    color: black;
+    border-radius: 10px;
+    background-color: lightblue;
+    font-size: 18;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+/*Lisäyksessä täytettävien kenttien nimet*/
+.lisaysf label{
+    padding: 14px;
+    width: 80%;
+    border: 4px solid black;
+    border-radius: 10px;
+    background-color: lightblue;
+    color: black;
+    font-size: 18;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    -webkit-transform: scale(1, 1);
+    box-sizing: border-box;
+
+}
+
+/*Lisäys-form Syötekentät*/
+.lisaysf input[type = text]{
+    width: 80%;
+    padding: 14px;
+    position: relative;
+    border: 4px solid black;
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+    font-size: 18;
+    cursor: pointer;
+    -webkit-transform: scale(1, 1);
+    box-sizing: border-box;
+}
+
+.lisaysf input[type = date]{
+    padding: 14px;
+    width: 80%;
+    position: relative;
+    border: 4px solid black;
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+    font-size: 18;
+    cursor: pointer;
+    -webkit-transform: scale(1, 1);
+    box-sizing: border-box;
+}
+
+.lisaysf input[type = int]{
+    padding: 14px;
+    width: 80%;
+    position: relative;
+    border: 4px solid black;
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+    font-size: 18;
+    cursor: pointer;
+    -webkit-transform: scale(1, 1);
+    box-sizing: border-box;
+}
+
+.lisaysf input[type = submit]{
+    padding: 16px 40px;
+    position: relative;
+    border: 4px solid black;
+    border-radius: 10px;
+    color: black;
+    background-color: lightgrey;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18;
+    cursor: pointer;
+    -webkit-transform: scale(1, 1);
+    box-sizing: border-box;
+}
+
+.muokkausdiv{
+    height: auto;
+    width: 60%;
+    position: absolute;
+    top: 0;
+    display: inline;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+/*Lisäys lomakkeet*/
+.muoksf{
+    position: relative;
+    box-sizing: border-box;
+}
+
+/**/
+/*Login-formin otsikko*/
+.muoksf legend{
+    width: auto;
+    border: 4px solid black;
+    color: black;
+    border-radius: 10px;
+    background-color: lightblue;
+    font-size: 18;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+/*Muokattavien tietojen kenttien nimet*/
+.muoksf label{
+    padding: 14px;
+    width: 80%;
+    border: 4px solid black;
+    border-radius: 10px;
+    background-color: lightblue;
+    color: black;
+    font-size: 18;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    -webkit-transform: scale(1, 1);
+    box-sizing: border-box;
+
+}
+
+/*Lisäys-form Syötekentät*/
+.muoksf input[type = text]{
+    width: 80%;
+    padding: 14px;
+    position: relative;
+    border: 4px solid black;
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+    font-size: 18;
+    cursor: pointer;
+    -webkit-transform: scale(1, 1);
+    box-sizing: border-box;
+}
+
+.muoksf input[type = date]{
+    padding: 14px;
+    width: 80%;
+    position: relative;
+    border: 4px solid black;
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+    font-size: 18;
+    cursor: pointer;
+    -webkit-transform: scale(1, 1);
+    box-sizing: border-box;
+}
+
+.muoksf input[type = int]{
+    padding: 14px;
+    width: 80%;
+    position: relative;
+    border: 4px solid black;
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+    font-size: 18;
+    cursor: pointer;
+    -webkit-transform: scale(1, 1);
+    box-sizing: border-box;
+}
+
+.muoksf input[type = submit]{
+    padding: 16px 40px;
+    position: relative;
+    border: 4px solid black;
+    border-radius: 10px;
+    color: black;
+    background-color: lightgrey;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18;
+    cursor: pointer;
+    -webkit-transform: scale(1, 1);
+    box-sizing: border-box;
+}
+
+/*Virhe ja muiden ilmoitusten muotoilut, sekä paluu buttonin muotoilu virhe ilmoituksen sivulta*/
+.vp{
+    background-color: white;
+    color: black;
+    font-size: 60;
+    font-weight: bold;
+    text-align: center;
+    opacity: 0.9;
+    box-sizing: border-box;
+}
+
+.ilmoitukset_a{
+    padding: 16px 40px;
+    border: 4px solid black;
+    background-color: lightgrey;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 30;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    position: fixed;
+    right: 35%;
+    top: 15%;
+    box-sizing: border-box;
+}
