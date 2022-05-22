@@ -4,4 +4,4 @@ http://www.dropzonejs.com/
 
 https://github.com/panique/php-login-minimal
 
-Taiderekisterin tekijät: Jani Heikkinen, Juuso Hämäläinen ja Aleksanteri Kuitu
+Taiderekisterin tekijät: Jani Heikkinen ja Juuso Hämäläinen
